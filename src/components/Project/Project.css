@@ -1,0 +1,30 @@
+.container-singleProject {
+  display: flex;
+  padding: 2em;
+}
+
+.imageContainer-singleProject img {
+  width: 100%;
+  height: auto;
+}
+
+.contentContainer-singleProject {
+  padding: 0.5em 5em 0em 1em;
+}
+
+.title-singleProject {
+  font-weight: bold;
+  font-size: 1.875em;
+  padding-bottom: 0.1em;
+}
+
+.tags-singleProject {
+  font-weight: 300;
+  font-size: 1.25em;
+  padding-bottom: 1em;
+}
+
+.description-singleProject {
+  font-weight: 300;
+  font-size: 1em;
+}
