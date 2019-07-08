@@ -19,9 +19,17 @@
 }
 
 .tags-singleProject {
-  font-weight: 300;
-  font-size: 1.25em;
+  display: flex;
   padding-bottom: 1em;
+}
+
+.tag-singleProject {
+  font-weight: 300;
+  font-size: 1em;  
+  /* color: #fff;
+  background-color: #6d9eeb;
+  border-radius: 1em;
+  padding: 0.5em 1em; */
 }
 
 .description-singleProject {

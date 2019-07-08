@@ -23,7 +23,7 @@
 
 .logoContainer-home {
   width: 4%;
-  margin-left: 1em;
+  margin-left: 0.25em;
   transform: scale(1);
   -webkit-transform: scale(1);
   -webkit-transition: all 0.3s ease-in-out 0s;

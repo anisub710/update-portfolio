@@ -5,10 +5,10 @@ import Nav from '../../components/Nav/Nav';
 export default class Home extends React.Component {
 
 
-  renderBasicInfo(title, link, logo, additionalInfo){
+  renderBasicInfo(title, beforeLogo, link, logo, additionalInfo){
     return (
     <div className={'basicInfo-home'}>
-      <div>{title}:</div>
+      <div>{`${title}: ${beforeLogo}`}</div>
       <div className={'logoContainer-home'}>
         <a href={link}>
           <img className={'logo-home'} src={logo}/>
@@ -34,8 +34,8 @@ export default class Home extends React.Component {
               and my involvment in the community provides me a strong perspective to build <strong>user-centered technology.</strong>
             </p>
           </div>
-          {this.renderBasicInfo('Current', 'https://www.pwc.com/', '../img/pwc_logo.svg', 'at Tampa, FL.')}
-          {this.renderBasicInfo('Education', 'https://www.washington.edu/', '../img/uw_logo.svg', 'at Seattle, WA.')}
+          {this.renderBasicInfo('Current', 'ASR Innovation Software Engineer', 'https://www.pwc.com/', '../img/pwc_logo.svg', 'at Tampa, FL.')}
+          {this.renderBasicInfo('Education','Bachelor of Science','https://www.washington.edu/', '../img/uw_logo.svg', 'at Seattle, WA.')}
           <Nav currLocation="Home"/>
         </div>
       </div>
