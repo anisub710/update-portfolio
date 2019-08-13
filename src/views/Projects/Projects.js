@@ -10,8 +10,8 @@ export default class Projects extends React.Component {
     return(
       <div className={'container-projects'}>
         <Nav currLocation='Projects'/>
-        <Project id = {0} projectImage={'../img/CourtVision.svg'}/>
-        <Project id = {1} projectImage={'../img/iSchool.svg'}/>
+        <Project id = {0} projectImage={'../img/CourtVision.svg'} projectTags={['Swift', 'iOS', 'mobile']}/>
+        <Project id = {1} projectImage={'../img/iSchool.svg'} projectTags={['TA']}/>
       </div>
     );
   }

@@ -19,14 +19,16 @@ export default class Project extends React.Component {
       <div className={'contentContainer-singleProject'}>
         <div className={'title-singleProject'}>Project 1</div>
         <div className={'tags-singleProject'}>
-          <div className={'tag-singleProject'}>Go</div>
+          {this.renderTags()}
         </div>
         <div className={'description-singleProject'}>description asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn nasodinsiaonddescription asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn nasodinsiaonddescription asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn</div>
       </div>
     );
   }
   renderTags() {
-
+    return this.props.projectTags.map((tag) => {
+      return <div className={'tag-singleProject'}>{tag}</div>
+    });
   }
 
   renderProject() {
