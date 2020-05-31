@@ -1,30 +1,30 @@
-.container-singleProject {
+.container-singleExperience {
   display: flex;
   padding: 2em;
 }
 
-.imageContainer-singleProject img {
+.imageContainer-singleExperience img {
   width: 100%;
   height: auto;
 }
 
-.contentContainer-singleProject {
+.contentContainer-singleExperience {
   padding: 0.5em 5em 0em 1em;
   flex: 2
 }
 
-.title-singleProject {
+.title-singleExperience {
   font-weight: bold;
   font-size: 1.875em;
   padding-bottom: 0.1em;
 }
 
-.tags-singleProject {
+.tags-singleExperience {
   display: flex;
   padding-bottom: 1em;
 }
 
-.tag-singleProject {
+.tag-singleExperience {
   font-weight: 500;
   font-size: 1em;  
   color: #ffffff;
@@ -34,7 +34,7 @@
   margin: 0em 0.5em 0em 0em;
 }
 
-.description-singleProject {
+.description-singleExperience {
   font-weight: 300;
   font-size: 1em;
 }

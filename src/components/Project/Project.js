@@ -9,7 +9,9 @@ export default class Project extends React.Component {
   renderProjectImage() {
     return (
       <div className={'imageContainer-singleProject'}>
-        <img src={this.props.projectImage}/>
+        <a href={this.props.link} target="_blank">
+          <img src={this.props.projectImage}/>
+        </a>
       </div>
     )
   }
@@ -17,11 +19,11 @@ export default class Project extends React.Component {
   renderProjectContent() {
     return(
       <div className={'contentContainer-singleProject'}>
-        <div className={'title-singleProject'}>Project 1</div>
+        <div className={'title-singleProject'}>{this.props.projectName}</div>
         <div className={'tags-singleProject'}>
           {this.renderTags()}
         </div>
-        <div className={'description-singleProject'}>description asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn nasodinsiaonddescription asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn nasodinsiaonddescription asdosiadjoijdsaoin asndoianoiand snaiodnodain ansidonaoindn</div>
+        <div className={'description-singleProject'}>{this.props.description}</div>        
       </div>
     );
   }

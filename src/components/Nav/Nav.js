@@ -12,10 +12,10 @@ export default class Nav extends React.Component {
     switch(this.props.currLocation) {
       case "Home":
         return(
-          <div className={'content-nav centered'}>
-            <div><Link to={Routes.Projects} className={'link-nav'}>projects</Link></div>
-            <div className={'circle-nav'}/>
+          <div className={'content-nav centered'}>          
             <div><Link to={Routes.Experiences} className={'link-nav'}>experiences</Link></div>
+            <div className={'circle-nav'}/>
+            <div><Link to={Routes.Projects} className={'link-nav'}>projects</Link></div>            
             <div className={'circle-nav'}/>
             <div><a href={'./Resume.pdf'} target='_blank' className={'link-nav'}>resume</a></div>
           </div>
@@ -26,13 +26,13 @@ export default class Nav extends React.Component {
             <div>
               <Link to={Routes.Home} className={'link-nav-blue'}>about</Link>
             </div>
-            <div className={'circle-nav-blue'}/>                 
-            <div>
-              <Link to={Routes.Projects} className={this.getLinkClassName('Projects')}>projects</Link>
-            </div>
             <div className={'circle-nav-blue'}/>
             <div>
               <Link to={Routes.Experiences} className={this.getLinkClassName('Experiences')}>experiences</Link>
+            </div>
+            <div className={'circle-nav-blue'}/>                 
+            <div>
+              <Link to={Routes.Projects} className={this.getLinkClassName('Projects')}>projects</Link>
             </div>
             <div className={'circle-nav-blue'}/>
             <div><a href={'./Resume.pdf'} target='_blank' className={this.getLinkClassName('Resume')}>resume</a></div>                    
