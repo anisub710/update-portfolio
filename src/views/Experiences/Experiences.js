@@ -10,12 +10,18 @@ export default class Experiences extends React.Component {
       <div className={'container-experiences'}>
       <Nav currLocation='Experiences'/>
       <Experience
-      link = "https://novantapp.com"
-      experienceName="Novant"
-      experienceImage={'../img/Novant.svg'} 
-      experienceTags={['Go', 'MySQL', 'Redis', 'React', 'React Native', 'Redux']} 
-      description = "Developed a mobile and web platform that facilitates the marketplace for job shifts to be listed by businesses, applied for and worked by a supply of trusted
-      employees. Architected and built RESTful backend server for the business logic."
+      link = "https://www.pwc.com/us/en/careers/why-pwc/what-we-do/what-we-do-products-and-technology.html"
+      experienceName="PriceWaterhouseCoopers"
+      experienceImage={'../img/PwC.svg'} 
+      experienceTags={['Scala', 'Kafka', 'Cassandra', 'Couchbase', 'RabbitMQ', 'Lagom', 'Akka', 'Docker']} 
+      description = {
+        <ul> 
+          <li> Lead development of back-end services for $2M client project. </li>
+          <li> Implement middle-tier services using Scala and with enterprise systems. </li>
+          <li> Troubleshoot production issues. </li>
+          <li> Coordinate with several teams to gather requirements. </li>
+          <li> Build documentation for services.</li>
+       </ul>}
       />
       </div>
     );

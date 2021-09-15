@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
       case "Home":
         return(
           <div className={'content-nav centered'}>          
-            <div><Link to={Routes.Experiences} className={'link-nav'}>experiences</Link></div>
+            <div><Link to={Routes.Experiences} className={'link-nav'}>experience</Link></div>
             <div className={'circle-nav'}/>
             <div><Link to={Routes.Projects} className={'link-nav'}>projects</Link></div>            
             <div className={'circle-nav'}/>
@@ -28,7 +28,7 @@ export default class Nav extends React.Component {
             </div>
             <div className={'circle-nav-blue'}/>
             <div>
-              <Link to={Routes.Experiences} className={this.getLinkClassName('Experiences')}>experiences</Link>
+              <Link to={Routes.Experiences} className={this.getLinkClassName('Experiences')}>experience</Link>
             </div>
             <div className={'circle-nav-blue'}/>                 
             <div>
