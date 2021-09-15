@@ -33,7 +33,7 @@ export default class Home extends React.Component {
               and my involvment in the community provides me a strong perspective to build <strong>user-centered technology.</strong>
             </p>
           </div>
-          {this.renderBasicInfo('Current', 'Assurance Innovation Back-end Developer', 'https://www.pwc.com/', '../img/pwc_logo.svg', 'at Tampa, FL.')}
+          {this.renderBasicInfo('Current', 'Associate 2 Software Engineer', 'https://www.pwc.com/', '../img/pwc_logo.svg', 'at Tampa, FL.')}
           {this.renderBasicInfo('Education','Bachelor of Science in Informatics','https://www.washington.edu/', '../img/uw_logo.svg', 'at Seattle, WA.')}
           <Nav currLocation="Home"/>
         </div>
