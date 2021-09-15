@@ -8,7 +8,7 @@ import Experiences from './views/Experiences/Experiences';
 
 function App() {
   return (    
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Route exact path={Routes.Home} component={Home}/>
         <Route path={Routes.Projects} component={Projects}/>
